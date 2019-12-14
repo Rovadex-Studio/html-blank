@@ -1,0 +1,20 @@
+/*-------------------- FONTS --------------------*/
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,400i,500,700');
+
+/*-------------------- DEFAULT STYLES --------------------*/
+*::selection{
+	background: rgba(0,0,0,.3);
+	color: #fff;
+}
+body{
+	color: $primary_color;
+	line-height: 1.2;
+	font-size: 14px;
+	font-family: $font_family;
+	min-width: 320px;
+	position: relative;
+	overflow-x: hidden;
+	&.no-scroll{
+		overflow: hidden;
+	}
+}

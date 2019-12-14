@@ -1,0 +1,34 @@
+button, input[type="button"], input[type="submit"]{
+	-webkit-appearance:button;
+	cursor:pointer;
+	font-family: $font_family;
+}
+button[disabled], html input[disabled]{
+	cursor:default;
+}
+button::-moz-focus-inner, input::-moz-focus-inner{
+	padding:0;
+	border:0;
+}
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+input[type="password"],
+input[type="search"],
+textarea{
+	display: block;
+	width: 100%;
+	height: 46px;
+	padding: 0 20px;
+	font-family: $font_family;
+}
+input::-moz-placeholder {             color: #5a5a5a;}
+input::-webkit-input-placeholder {    color: #5a5a5a;}
+input:-ms-input-placeholder {         color: #5a5a5a;}
+input::-ms-input-placeholder {        color: #5a5a5a;}
+input::placeholder {                  color: #5a5a5a;}
+textarea::-moz-placeholder {          color: #5a5a5a;}
+textarea::-webkit-input-placeholder { color: #5a5a5a;}
+textarea:-ms-input-placeholder {      color: #5a5a5a;}
+textarea::-ms-input-placeholder {     color: #5a5a5a;}
+textarea::placeholder {               color: #5a5a5a;}
